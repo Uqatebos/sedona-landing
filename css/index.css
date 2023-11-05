@@ -1,0 +1,128 @@
+.main-container {
+  max-width: 1280px;
+  width: 100%;
+  min-height: 786px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #f2f2f2;
+  overflow: hidden;
+  padding: 0 40px;
+  font-family: 'PT Sans', sans-serif;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.header {
+    max-width: 1200px;
+    width: 100%;
+    height: 56px;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+}
+.navigation {
+    width: 100%;
+    height: 100%;
+    padding-left: 90px;
+    padding-right: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation__part {
+    max-width: 340px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sedona-city {
+    max-width: 1200px;
+    width: 100%;
+    min-height: 719px;
+    text-transform: uppercase;
+}
+
+.sedona-city__intro-bg {
+    width: 100%;
+    min-height: 518px;
+    background-image: url("../img/intro/intro_bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.sedona-city__text {
+    background-color: #ffffff;
+    max-width: 1200px;
+    min-height: 201px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sedona-city__text--black {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+
+.panorama-section {
+    max-width: 1200px;
+    width: 100%;
+    min-height: 255px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.sedona-reason--blue {
+    background-color: #81b3d2;
+    color: #ffffff;
+}
+
+.sedona-reason {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 55px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sedona-reason__title {
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.sedona-reason__number {
+    margin-bottom: 30px;
+}
+
+.panorama-section__img {
+    width: 800px;
+    min-height: 255px;
+    background-image: url("../img/panorama-section/city_bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
